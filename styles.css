@@ -67,6 +67,9 @@ main{
     main{
         text-align:center !important;
     }
+    #terms{
+        text-align: left !important;
+    }
     header p{
         font-size: 0.7rem !important;
     }
@@ -76,6 +79,15 @@ main{
     #results{
         margin-bottom: 2rem !important;
     }
+    h1{
+        font-size: 3.5rem !important;
+    }
+}
+
+/* footer span line break */
+footer .col:first-child span{
+    display:inline-block;
+    width:2ch;
 }
 
 /* default footer */
