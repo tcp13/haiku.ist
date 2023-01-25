@@ -55,17 +55,26 @@ main{
         margin: 1% 0px !important;
     }
     .card{
-        padding: 0rem 1rem 2rem 1rem;
+        padding: 1rem 0.5rem !important;
     }
     footer .col:first-child span{
-        display:none;
+        display:none !important;
     }
     footer .col, .footer-text, header{
-        text-align: center;
+        text-align: center !important;
         width: 100%;
     }
     main{
-        text-align:center;
+        text-align:center !important;
+    }
+    header p{
+        font-size: 0.7rem !important;
+    }
+    #thinking{
+        margin-bottom: 3rem !important;
+    }
+    #results{
+        margin-bottom: 2rem !important;
     }
 }
 
