@@ -48,11 +48,24 @@ main{
         margin:4%;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .col{
         display: block !important;
         width: 100% !important;
         margin: 1% 0px !important;
+    }
+    .card{
+        padding: 0rem 1rem 2rem 1rem;
+    }
+    footer .col:first-child span{
+        display:none;
+    }
+    footer .col, .footer-text, header{
+        text-align: center;
+        width: 100%;
+    }
+    main{
+        text-align:center;
     }
 }
 
