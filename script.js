@@ -8,3 +8,9 @@ $("#go").click(function(){
         $("#share a[href*='twitter']").attr("href", "https://twitter.com/intent/tweet?text=" + $("#query").val() + "%20(written%20by%20AI%20via%20haiku.ist)%0A%0A%0A" + data.haikus.replace(/\n/g, "%0A"));
     })
 });
+
+$("#prompt input").on('keypress', function (e) {
+    if(e.which === 13){
+        $("#go").click();
+    }
+});
