@@ -85,6 +85,9 @@ main{
     h1{
         font-size: 3.5rem !important;
     }
+    button{
+        vertical-align: -1.05rem;
+    }
 }
 
 /* footer span line break */
@@ -154,7 +157,7 @@ button{
     display: inline-block;
     padding: 0px;
     border: 2px solid transparent;
-    vertical-align: -1.02rem;
+    vertical-align: -1rem;
     border-radius:0.2rem;
     background-color: var(--white);
 }
