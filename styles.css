@@ -153,16 +153,17 @@ div.card {
 button{
     display: inline-block;
     padding: 0px;
-    border: none;
-    vertical-align: -1.2rem;
+    border: 2px solid transparent;
+    vertical-align: -1rem;
     border-radius:0.2rem;
+    background-color: var(--white);
 }
 button:hover{
     border: 2px solid var(--black);
     cursor:pointer;
 }
 button img{
-    padding: 0.25rem;
+    padding: 0.1rem;
     width: 2.5rem;
     border-radius: 0.2rem;
 }
