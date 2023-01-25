@@ -175,9 +175,13 @@ header p{
 }
 
 #share img{
-    width: 2rem;
-    border-radius: 0.2rem;
-    padding: 0px
+    width: 1.7rem;
+    transform: scale(0.9);
+    padding: 0px;
+}
+
+#share img:hover, #share img:focus{
+    transform: scale(1);
 }
 
 #share h2{
