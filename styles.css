@@ -57,6 +57,9 @@ main{
     .card{
         padding: 1rem 0.5rem !important;
     }
+    #terms .card{
+        padding: 2rem 1rem !important;
+    }
     footer .col:first-child span{
         display:none !important;
     }
@@ -124,7 +127,7 @@ main .col-2 .col:nth-child(2){
     display:inline-block;
 }
 
-/* 2 column layout */
+/* 2 column layout 
 footer .col-2 .col:nth-child(1){
     width:64%;
     margin-right:1%;
@@ -135,6 +138,7 @@ footer .col-2 .col:nth-child(2){
     margin-left:1%;
     display:inline-block;
 }
+*/
 
 /* card */
 div.card {
