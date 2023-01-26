@@ -3,7 +3,7 @@ const outage = true;
 $("#go").click(function(){
 
     if(outage){
-        $("#results").text("Oops! GPT-3 (the AI engine this website runs on) is experiencing technical issues. Please come back later!");
+        $("#results").text("Oops! GPT-3 (the AI engine this website runs on) is experiencing technical issues. Please try again later, or monitor https://status.openai.com for status updates.");
         return;
     }
 
