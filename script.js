@@ -1,4 +1,4 @@
-const outage = true;
+const outage = false;
 
 $("#go").click(function(){
 
